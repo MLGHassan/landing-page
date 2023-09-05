@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-info, .footer {
+    background-color: #1f2937;
+}
+
+.header-info {
+    height: 450px;
+}
+
+.footer {
+    height: 100px;
+}
+
+.info, .cta {
+    height: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 200px;
+}
+
+
