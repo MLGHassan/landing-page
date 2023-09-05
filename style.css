@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
+}
+
+.header-info a, .header-info p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .containers {
     display: flex;
     flex-direction: column;
-    flex: 1;
+}
+
+.logo {
+    width: 50px;
 }
 
 .header-info, .footer {
@@ -13,7 +31,28 @@ body {
 }
 
 .header-info {
-    height: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 350px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-img {
+    width: 500px;
 }
 
 .footer {
@@ -29,4 +68,21 @@ body {
     height: 200px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
+.links {
+    display: flex;
+    gap: 14px;
+}
+
+.sign-button {
+    background-color: #3882f6;
+    padding: 4px 26px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    border: none;
+}
